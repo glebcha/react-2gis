@@ -537,7 +537,7 @@ var AppStore = (function (_EventEmitter) {
 		key: 'init',
 		value: function init() {
 
-			_superagent2.default.get('/data/data.json').end(function (err, res) {
+			_superagent2.default.get('/react-2gis/data/data.json').end(function (err, res) {
 				if (res.ok) _PageActions2.default.receiveItems(res.body);
 			});
 		}
