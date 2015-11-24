@@ -7,6 +7,8 @@
 2 - npm start запустит сборку и live-reload для продакшна, 
     npm run start-dev сделает все то же самое с сорсмапами
 
+Готовая сборка http://glebcha.github.io/react-2gis/
+
 ----------
 
 
