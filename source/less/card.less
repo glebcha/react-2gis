@@ -1,0 +1,116 @@
+article {
+	header {
+		h3 {
+			white-space: inherit !important;
+    		overflow: visible !important;
+
+			&:after {
+				background: none;
+			}
+		}
+	}
+
+	.card-item {
+		ul {
+			li {
+				white-space: inherit !important;
+    			overflow: visible !important;
+
+				&:after {
+					background: none;
+				}
+			}
+		}
+	}
+}
+
+.card_payment {
+	padding: 1.5rem 1rem;
+	.border-top;
+
+	dl {
+		font: @inner;
+		margin: 0;
+
+		dt {
+			.relative;
+			.inline-block;
+			.thin;
+			padding-right: 1.2rem;
+
+			&:after {
+				.absolute;
+				top: 0.8rem / 1.2;
+				right: 0.4rem;
+				width: 0.4rem;
+				height: 0.4rem;
+				border-radius: 50%;
+				border: 0.2rem solid @gray;
+				content: '';
+			}
+
+			&:last-child {
+				&:after {
+					.hide;
+				}
+			}
+		}
+	}
+}
+
+.card_contacts {
+	font: @inner;
+	padding: 0 0 0 3rem;
+	.border-top;
+
+	ul {
+		.thin;
+		list-style: none;
+		margin: 0;
+		padding: 0; 
+
+		li {
+			.relative;
+			.border-top;
+			padding: 1.5rem 0;
+
+			&.phone {
+				font-size: 2.2rem;
+				
+				a {
+					color: @black;
+				}
+
+				&:before {
+					background: url(../images/phone.svg) 0 1.5rem no-repeat;
+				}
+			}
+
+			&.website {
+				&:before {
+					background: url(../images/web.svg) 0 1.5rem no-repeat;
+				}
+			}
+
+			&:before {
+				.absolute;
+				top: 0;
+				left: -2.5rem;
+				width: 2.5rem;
+				height: 100%;
+				content: '';
+			}
+
+			&:first-child {
+				border: none;
+			}
+
+		}
+	}
+}
+
+.rubrics {
+	font: @inner;
+	padding: 1.5rem 1rem;
+	.border-top;
+}

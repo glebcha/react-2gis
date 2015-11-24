@@ -1,0 +1,97 @@
+[
+    {
+        "id": "141265769360673",
+        "title": "Новосибирский Государственный Академический Театр Оперы и Балета",
+        "address": "Красный проспект, 36",
+        "attributes": ["Наличный расчет", "Visa", "MasterCard"],
+        "rubrics": ["Театры"],
+        "rating": 4.5,
+        "schedule": {
+            "status": "close",
+            "text": "Откроется через 30 минут"
+        },
+        "distance_info": {
+            "distance": "22",
+            "unit": "км"
+        },
+        "contacts": [
+            {
+                "value": "+73832225990",
+                "type": "phone",
+                "text": "(383) 222‒59‒90"
+            },
+            {
+                "value": "http://www.opera-novosibirsk.ru",
+                "type": "website",
+                "text": "www.opera-novosibirsk.ru"
+            }
+        ]
+    },
+    {
+        "id": "141265769360676",
+        "title": "Глобус",
+        "extension": "Новосибирский академический молодежный театр",
+        "address": "Каменская, 1",
+        "attributes": ["Наличный расчет", "Visa", "MasterCard", "Золотая Корона", "Maestro Card"],
+        "rubrics": ["Театры"],
+        "rating": 4,
+        "schedule": {
+            "status": "open",
+            "text": "Открыто до 19:00"
+        },
+        "distance_info": {
+            "distance": "22",
+            "unit": "км"
+        },
+        "contacts": [
+            {
+                "value": "+73832236684",
+                "type": "phone",
+                "text": "(383) 223‒66‒84"
+            },
+            {
+                "value": "+73832238841",
+                "type": "phone",
+                "text": "(383) 223‒88‒41"
+            },
+            {
+                "value": "http://www.globus-nsk.ru/",
+                "type": "website",
+                "text": "www.globus-nsk.ru"
+            }
+        ]
+    },
+    {
+        "id": "141265769360655",
+        "title": "Красный Факел",
+        "extension": "Государственный академический драматический театр",
+        "address": "Ленина, 19",
+        "rubrics": ["Театры"],
+        "rating": 1.5,
+        "schedule": {
+            "status": "open",
+            "text": "Закрыто до 11:00"
+        },
+        "distance_info": {
+            "distance": "23",
+            "unit": "км"
+        },
+        "contacts": [
+            {
+                "value": "+73832100401",
+                "type": "phone",
+                "text": "(383) 210‒04‒01"
+            },
+            {
+                "value": "+73832100671",
+                "type": "phone",
+                "text": "(383) 210‒06‒71"
+            },
+            {
+                "value": "http://www.red-torch.ru/",
+                "type": "website",
+                "text": "www.red-torch.ru"
+            }
+        ]
+    }
+]
