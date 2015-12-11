@@ -3,7 +3,7 @@
 const 	env = process.env.NODE_ENV,
 		gulp = require('gulp'),
 		cache = require('gulp-cache'),
-		clean = require('gulp-clean'),
+		clean = require('gulp-rimraf'),
 		stream = require('event-stream'),
 		browserSync = require('browser-sync'),
 		browserify = require('browserify'),
